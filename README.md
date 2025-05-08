@@ -29,18 +29,11 @@ O autor desta página se isenta de qualquer responsabilidade pelo uso malicioso 
 ## Páginas de coleta
 Recomendo utilizar um **cartão SD de 16GB** para armazenamento de todas as telas.
 
-| SCREENSHOT | VIEW |
-| ------- | ------- |
-| <img src="./assets/login_gmail.png"   width="100">  | [Login Gmail](./assets/login_gmail.png)   |
-| <img src="./assets/login_oi.png"      width="100">  | [Login OI   ](./assets/login_oi.png)   |
-| <img src="./assets/login_tim.png"     width="100">  | [Login TIM  ](./assets/login_tim.png)   |
-| <img src="./assets/login_vivo.png"    width="100">  | [Login VIVO ](./assets/login_vivo.png)   |
-| <img src="./assets/login_algar.png"   width="100">  | [Login Algar](./assets/login_algar.png)   |
-| <img src="./assets/wifi_gov.png"   width="100">  | [Wi-fi Governo](./assets/login_gmail.png)   |
-| <img src="./assets/wifi_gov_prefeitura_sp.png"   width="100">  | [Wi-fi Governo - Prefeitura São Paulo](./assets/wifi_gov_prefeitura_sp.png)   |
-| <img src="./assets/wifi_novotel.png"   width="100">  | [Wi-fi Novotel](./assets/wifi_novotel.png)   |
-| <img src="./assets/wifi_starbuks.png"   width="100">  | [Wi-fi Starbucks](./assets/wifi_starbuks.png)   |
-
+| SCREENSHOT | SCREENSHOT | SCREENSHOT | 
+| ------- | ------- | ------- |
+| <img src="./assets/login_gmail.png" width="100">  | <img src="./assets/login_oi.png" width="100"> | <img src="./assets/login_tim.png"     width="100"> |
+| <img src="./assets/login_vivo.png"    width="100"> | <img src="./assets/login_algar.png"   width="100"> | <img src="./assets/wifi_gov.png"   width="100">  |
+| <img src="./assets/wifi_gov_prefeitura_sp.png"   width="100"> | <img src="./assets/wifi_novotel.png"   width="100"> | <img src="./assets/wifi_starbuks.png"   width="100"> |
 
 ## Template
 
