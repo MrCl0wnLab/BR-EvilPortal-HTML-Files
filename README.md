@@ -7,8 +7,8 @@ As páginas de coleta do repositorio foram testadas usando a ferramenta Bruce na
 
 <h1 align="center">
   <img src="./assets/bruce.webp"   width="300">
-  <p style="font-size:10px">Bruce Firmware on M5Stack Cardputer</p>
 </h1>
+<p align="center" style="font-size:10px">Bruce Firmware on M5Stack Cardputer</p>
 
 > Bruce is meant to be a versatile ESP32 firmware that supports a ton of offensive features focusing on facilitating Red Team operations. It also supports m5stack products and works great with Cardputer, Sticks, M5Cores, T-Decks and T-Embeds. Repo: https://github.com/pr3y/Bruce
 
