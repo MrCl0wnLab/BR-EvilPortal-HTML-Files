@@ -1,0 +1,208 @@
+<!-- 
+                        AVISO IMPORTANTE
+
+Isenção de Responsabilidade: Uso Educacional e Estrutura Legal
+
+Este template é estritamente destinado a fins educacionais e de treinamento.
+O objetivo é aumentar a conscientização sobre segurança e proteção contra ataques de phishing.
+Ao utilizar este template, você concorda em usá-lo apenas dentro de uma estrutura legal e ética,
+em conformidade com as leis e regulamentos aplicáveis em sua jurisdição.
+
+Limitação de Responsabilidade
+
+O autor deste template se isenta de qualquer responsabilidade pelo uso malicioso ou ilegal.
+Qualquer pessoa que use este template para fins não conformes à lei será a única responsável por suas ações.
+É altamente recomendável nunca usar estas técnicas para qualquer finalidade que não seja aprendizado e conscientização.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Portal de Acesso Wi-Fi</title>
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%3E%3Ctext%20x='0'%20y='14'%3E🛜%3C/text%3E%3C/svg%3E"
+        type="image/svg+xml" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+        }
+        
+        :root {
+            --primary-color: #0066cc;
+            --primary-hover: #0055aa;
+            --secondary-color: #f8f9fa;
+            --text-color: #333333;
+            --light-text: #666666;
+            --border-color: #dddddd;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: var(--secondary-color);
+        }
+        
+        .navbar {
+            width: 100%;
+            background-color: var(--primary-color);
+            padding: 1rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .navbar-logo {
+            max-height: 40px;
+        }
+        
+        .main-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+        
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px var(--shadow-color);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .login-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .login-title {
+            font-size: 1.5rem;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .login-subtitle {
+            font-size: 0.9rem;
+            color: var(--light-text);
+        }
+        
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--text-color);
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1rem;
+            transition: border 0.3s;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        .form-button {
+            padding: 0.75rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 1rem;
+        }
+        
+        .form-button:hover {
+            background-color: var(--primary-hover);
+        }
+        
+        .terms-text {
+            margin-top: 1rem;
+            font-size: 0.75rem;
+            color: var(--light-text);
+            text-align: center;
+        }
+        
+        .footer {
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--light-text);
+        }
+        
+        @media (max-width: 480px) {
+            .login-container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img class="navbar-logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNTAiPjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iNTAiIGZpbGw9Im5vbmUiLz48dGV4dCB4PSIyNSIgeT0iMzAiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZmlsbD0id2hpdGUiPldpLUZpIFBvcnRhbDwvdGV4dD48L3N2Zz4=" alt="Logo">
+    </div>
+
+    <div class="main-container">
+        <div class="login-container">
+            <div class="login-header">
+                <h1 class="login-title">Conecte-se à rede Wi-Fi</h1>
+                <p class="login-subtitle">Preencha os dados abaixo para acessar a internet</p>
+            </div>
+
+            <form class="login-form" action="/get" method="post">
+                <div class="form-group">
+                    <label class="form-label" for="email">E-mail ou Telefone</label>
+                    <input class="form-input" type="text" id="email" name="usr" placeholder="Digite seu e-mail ou telefone" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="password">Senha</label>
+                    <input class="form-input" type="password" id="password" name="pwd" placeholder="Digite sua senha" required>
+                </div>
+
+                <button class="form-button" type="submit">Conectar</button>
+
+                <p class="terms-text">
+                    Ao clicar em "Conectar", você concorda com nossos Termos de Uso e Política de Privacidade.
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Empresa Wi-Fi. Todos os direitos reservados.</p>
+        <p>Este é um portal de autenticação para acessar a rede Wi-Fi pública.</p>
+    </footer>
+</body>
+
+</html>
