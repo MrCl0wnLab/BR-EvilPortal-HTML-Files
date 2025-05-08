@@ -6,7 +6,7 @@ Repositório criado com o objetivo de reunir arquivos HTML para serem utilizados
 As páginas de coleta do repositorio foram testadas usando a ferramenta Bruce na plataforma [**M5stack**](https://m5stack.com/).
 
 <h1 align="center">
-  <img src="./assets/bruce.webp"   width="300">
+  <img src="./assets/brece-telas.jpeg"   width="500">
 </h1>
 <p align="center" style="font-size:10px">Bruce Firmware on M5Stack Cardputer</p>
 
