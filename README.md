@@ -1,6 +1,6 @@
 # Brasil EvilPortal HTML Files
 
-Repositório criado com o objetivo de reunir arquivos HTML para serem utilizados como [**portal captive**](https://en-m-wikipedia-org.translate.goog/wiki/Captive_portal?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc) (**Evil Portal**), especificamente adaptados para o contexto brasileiro 🇧🇷.
+Repositório criado com o objetivo de reunir arquivos HTML para uso como [**portal captive**](https://en-m-wikipedia-org.translate.goog/wiki/Captive_portal?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc) (**Evil Portal**), especificamente adaptados para o contexto brasileiro 🇧🇷.
 
 ### Bruce Firmware on M5Stack
 As páginas de coleta do repositorio foram testadas usando a ferramenta Bruce na plataforma [**M5stack**](https://m5stack.com/).
