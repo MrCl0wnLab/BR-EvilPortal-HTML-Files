@@ -57,6 +57,7 @@ O arquivo template.html foi criado com base nas melhores práticas e fomentar um
       - usr: para campo login
       - pwd: para campo de senha
       -  tp: para campo tipo de login
+      - cpt: para checkbox captcha fake
 ---
 
 ## Autores 👔 <a name="autores"></a>
