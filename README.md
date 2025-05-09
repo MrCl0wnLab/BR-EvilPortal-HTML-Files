@@ -33,7 +33,7 @@ Recomendo utilizar um **cartão SD de 16GB** para armazenamento de todas as tela
 | -------    | -------    | -------    | -------    |
 | <img src="./assets/login_gmail.png" width="100">  | <img src="./assets/login_oi.png" width="100"> | <img src="./assets/login_tim.png"     width="100"> | <img src="./assets/login_vivo.png"    width="100"> |
 |  <img src="./assets/login_algar.png"   width="100"> | <img src="./assets/wifi_gov.png"   width="100">  | <img src="./assets/wifi_gov_prefeitura_sp.png"   width="100"> |<img src="./assets/wifi_novotel.png"   width="100"> |
-|  <img src="./assets/wifi_starbuks.png"   width="100"> | <img src="./assets/login_starlink.png"   width="100"> | - | - | - |
+|  <img src="./assets/wifi_starbuks.png"   width="100"> | <img src="./assets/login_starlink.png"   width="100"> | <img src="./assets/login_x.png" width="100"> | - | - |
 
 ## Template
 
