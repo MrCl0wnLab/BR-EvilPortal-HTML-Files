@@ -1,6 +1,6 @@
 # Brasil EvilPortal HTML Files
 
-Repositório criado com o objetivo de reunir arquivos HTML para uso como [**portal captive**](https://en-m-wikipedia-org.translate.goog/wiki/Captive_portal?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc) (**Evil Portal**), especificamente adaptados para o contexto brasileiro 🇧🇷.
+Repositório criado com o objetivo de reunir arquivos HTML (telas de coleta) para uso como [**portal captive**](https://en-m-wikipedia-org.translate.goog/wiki/Captive_portal?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc) (**Evil Portal**), especificamente adaptados para o contexto brasileiro 🇧🇷.
 
 ### Bruce Firmware on M5Stack
 As páginas de coleta do repositorio foram testadas usando a ferramenta Bruce na plataforma [**M5stack**](https://m5stack.com/).
@@ -29,11 +29,11 @@ O autor desta página se isenta de qualquer responsabilidade pelo uso malicioso 
 ## Páginas de coleta
 Recomendo utilizar um **cartão SD de 16GB** para armazenamento de todas as telas.
 
-| SCREENSHOT | SCREENSHOT | SCREENSHOT | 
-| ------- | ------- | ------- |
-| <img src="./assets/login_gmail.png" width="100">  | <img src="./assets/login_oi.png" width="100"> | <img src="./assets/login_tim.png"     width="100"> |
-| <img src="./assets/login_vivo.png"    width="100"> | <img src="./assets/login_algar.png"   width="100"> | <img src="./assets/wifi_gov.png"   width="100">  |
-| <img src="./assets/wifi_gov_prefeitura_sp.png"   width="100"> | <img src="./assets/wifi_novotel.png"   width="100"> | <img src="./assets/wifi_starbuks.png"   width="100"> |
+| SCREENSHOT | SCREENSHOT | SCREENSHOT | SCREENSHOT | 
+| -------    | -------    | -------    | -------    |
+| <img src="./assets/login_gmail.png" width="100">  | <img src="./assets/login_oi.png" width="100"> | <img src="./assets/login_tim.png"     width="100"> | <img src="./assets/login_vivo.png"    width="100"> |
+|  <img src="./assets/login_algar.png"   width="100"> | <img src="./assets/wifi_gov.png"   width="100">  | <img src="./assets/wifi_gov_prefeitura_sp.png"   width="100"> |<img src="./assets/wifi_novotel.png"   width="100"> |
+|  <img src="./assets/wifi_starbuks.png"   width="100"> | <img src="./assets/login_starlink.png"   width="100"> | - | - | - |
 
 ## Template
 
